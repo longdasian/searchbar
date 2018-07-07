@@ -1,0 +1,87 @@
+.topnav{
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.navright{
+    padding:10px;
+    margin-right:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: grey;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    padding: 5px;
+    width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+form {
+    padding: 5px;
+    width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border:4px;
+}
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: 5px grey;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+.btn {
+    padding: 5px;
+    width: 150px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color:lightskyblue;
+    border-radius:8px;
+    color:black;
+    font-weight:bold;
+    border-color:lightskyblue
+}
+footer {
+    Background-color: lightgrey;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+  .footer,
+  .push {
+    height: 50px;
+}
